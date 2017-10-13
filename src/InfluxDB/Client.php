@@ -332,7 +332,7 @@ class Client
             new \GuzzleHttp\Client(
                 [
                     'timeout' => $this->timeout,
-                    'base_uri' => $this->baseURI,
+                    'base_url' => $this->baseURI,
                     'verify' => $this->verifySSL
                 ]
             )
